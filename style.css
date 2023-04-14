@@ -1,4 +1,57 @@
-container {
-	display:grid;
+body {
+margin: auto;
+max-width: 1440px;
+border: inset 1px;
+}
 
+h1 {
+	font-family: poppins;
+	font-weight: 700;
+}
+.page-wrapper {
+	display: flexbox;	
+	justify-content: center;	
+}
+
+.page-header {
+	display: flex;
+	justify-content:space-between;
+	padding: 2.5em;
+	margin-bottom: 100px;
+
+}
+
+.btn-first{
+	cursor: pointer;
+	background-color: transparent;
+	color:  hsl(322, 100%, 66%);
+	border-color: hsl(322, 100%, 66%);
+	border-radius: 15px;
+	padding: 0.1em 1em;
+}
+
+.community-wrapper {
+	text-align: center;
+	justify-content: center;
+	font-weight: 600;
+	margin-bottom: 50px;
+	
+}
+
+.btn-second {
+	background-color: hsl(322, 100%, 66%);
+	color: rgb(252, 251, 251);
+	border-color: hsl(322, 100%, 66%);
+	border-radius: 20px;
+	padding: 0.5em  75px;
+}
+
+.mockups-container {
+	flex-wrap: wrap;
+}
+
+.communities-image{
+	display: block;
+	justify-content: center;
+	
 }

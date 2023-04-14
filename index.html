@@ -4,160 +4,151 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://kit.fontawesome.com/e7387526c4.js" crossorigin="anonymous"></script>
-
-  <!-- Title Section -->
-  <title>Frontend Mentor | Huddle landing page with alternating sections</title>
+<title>Frontend Mentor | Huddle landing page with alternating sections</title>
 </head>
 
-<!-- Body Section -->
-
 <body>
-<main class="container">
-   
-  <!-- Header Section -->
 
-<header>
-  <div id="header-box">
-    <div class="logo">
+  <div class="page-wrapper">
+  <header class="page-header">
+    <div id="header-box">
       <img src="images/logo.svg" class="logo" alt="logo">
+      </div>
+         <div id="header-button">
+        <input type="button" class="btn-first" value="Try it free">
+      </div>
     </div>
-       <div id="button">
-      <input type="button" class="btn-first" value="Try it free">
-    </div>
-  </div>
-  </header>
-   
-  
-   <!-- Section a -->
-  <section id="community-wrapper">
+    </header>
+        
+    <div class="community-wrapper">
       <h1>Build The Community Your Fans Will Love</h1>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
-        your audience. Create connections with your users as you engage in genuine discussion. </p>
-      <div id="button">
-        <input type="button" class="btn-second" value="Get Started For Free!">
-      </div>
-    
-  <!-- mockup -->
-        <div id="mockups">
-          <img src="images/screen-mockups.svg" class="main image" alt="screen mockup">
+        <p class="community-description">Huddle re-imagines the way we build communities. You have a<br>voice, but so does 
+            your audience. Create connections with your<br> users as you engage in genuine discussion. </p>
+        </p>
+        <div>       
+           <input type="button" class="btn-second" value="Get Started For Free!">
         </div>
-        <div id="community">
-            <img src="images/icon-communities.svg" class="communities">
-        </div>
-        <p class="stat1"> 1.4k+</p>
-        <p class="text1">Communities Formed</p>
-     
-        <div id="message icon">      
-          <img src="images/icon-messages.svg">
-        </div>     
-        <p class="stat1"> 2.7m+</p>
-        <p class="text1">Messages Sent</p>
-     </section>
-  
-   
-  <!-- Grow together  section -->   
-    <section class="grow-wrapper">
-      <div id="upperwave1">
-        <img src="images/bg-section-top-desktop-1.svg">
     </div>
-        <div id="grow-image">
-          <img src="images/illustration-grow-together.svg">
-        </div>
-          <p class="section-title">Grow together</p>
-          <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
-            Think of the insightful conversations you miss out on with a feedback form.</p>
-        <div id="bottomwave1">
-          <img src="images/bg-section-bottom-desktop-1.svg">
-        </div>
-    </section>
-  
-  
-    <!-- Flowing conversation-->
-    <section class="flow-wrapper">    
-        <div id="flow pic">
-        <img src="images/illustration-flowing-conversation.svg">
-      </div>
-      <p class="section-title"> Flowing Conversations</p>
-      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-        just-in-time loading for a more natural flow.</p>
-    </section>
-   
-    <!-- Your users section -->
-    <section class="users-wrapper">
-      <div class="upperwave2">
-        <img src="images/bg-section-top-desktop-2.svg">
-      </div>
-      <div id="userspic">
-        <img src="images/illustration-your-users.svg">
-      </div>
-      <p class="section-title">Your users</p>    
-      <p class="userstext">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-        once signed in to your app, your users can start chatting immediately.</p>
-        <div id="lowerwave2">
-          <img src="images/bg-section-bottom-desktop-2.svg">
-        </div> 
-    </section>
-  <!-- Ready to build -->
-  <section class="ready-build-wrapper">
-    <p id="build-title">Ready To Build Your Community?</h5>
-   <div id="btn-bottom">
-    <input type="button" class="btn-last" value="Try It For Free!">
-   </div>
-  </section>
-  
-  <!-- Newsletter and subscription -->
-  <section class="newsletter-wrapper">
-   <div id="newsletter-wrapper">
-    <p id="news-head">Newsletter</p>
-    <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-    send you spam or pass on your email address</p>
-  
-    <form id="subscribe">
-      <input type="text" id="subscribe-box" value="Email">
-      <input type="submit" value="Subscribe">
-    </form>
-  </div>
-  </section>
-  
-  <!-- Contact section -->
-  
-  <section class="info-wrapper">
-    <div id="logo">
-      <img src="images/logo.svg" class="logo" alt="logo">
-      </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione expedita dolorem voluptatem, minus animi quae eum.</p>
-    
-    <div id="contact-wrapper">
-      <div class="phone info">
-      <img src="images/phone.svg">
-      <p> Phone: +1-543-123-4567</p>
-      </div>
       
-       <div class="email info">
-        <img src="images/email.svg">
-        <p> Email: example@Huddle.com</p>
+    <!-- mockup -->
+          <div id="mockups-container">
+            <div class="communities-image">
+              <img src="images/screen-mockups.svg  " class="main-image" alt="screen mockup">
+            </div>
+              <div id="communities-icon">
+              <img src="images/icon-communities.svg" class="communities">
+              <p class="stat1"> 1.4k+</p>
+              <p class="text1">Communities Formed</p>
+              </div>
+          
+          <div id="message icon">      
+            <img src="images/icon-messages.svg">    
+          <p class="stat1"> 2.7m+</p>
+          <p class="text1">Messages Sent</p>
+          </div> 
+
+     
+    
+     
+    <!-- Grow together  section -->   
+    
+        <div id="upperwave1">
+          <img src="images/bg-section-top-desktop-1.svg">
       </div>
-       
-        <div class="icons">
-          <i class="fa-brands fa-square-facebook"></i> 
-          <i class="fa-brands fa-square-instagram"></i>     
-          <i class="fa-brands fa-square-twitter"></i>
+          <div id="grow-image">
+            <img src="images/illustration-grow-together.svg">
+          </div>
+            <p class="section-title">Grow together</p>
+            <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+              Think of the insightful conversations you miss out on with a feedback form.</p>
+          <div id="bottomwave1">
+            <img src="images/bg-section-bottom-desktop-1.svg">
+          </div>
+    
+    
+      <!-- Flowing conversation-->
+          <div id="flow pic">
+          <img src="images/illustration-flowing-conversation.svg">
+        </div>
+        <h1>Flowing Conversations</h1>
+          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+          just-in-time loading for a more natural flow.</p>
+     
+      <!-- Your users section -->
+        <div class="upperwave2">
+          <img src="images/bg-section-top-desktop-2.svg">
+        </div>
+        <div id="userspic">
+          <img src="images/illustration-your-users.svg">
+        </div>
+        <h1>Your users</h1>     
+         <p class="userstext">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+          once signed in to your app, your users can start chatting immediately.</p>
+          <div id="lowerwave2">
+            <img src="images/bg-section-bottom-desktop-2.svg">
+          </div> 
+    <!-- Ready to build -->
+        <h1>Ready To Build Your Community?</h1>   
+        <div id="btn-bottom">
+        <input type="button" class="btn-last" value="Try It For Free!">
       </div>
-    </div> 
-  </section>  
-  
+    </section>
+    
+    <!-- Newsletter and subscription -->
+    <section class="newletter">
+     <div id="newsletter-wrapper">
+      <p id="news-head">Newsletter</p>
+      <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+      send you spam or pass on your email address</p>
+    
+      <form id="subscribe">
+        <input type="text" id="subscribe-box" value="Email">
+        <input type="submit" value="Subscribe">
+      </form>
+    </div>
+    </section>
+    
+    <!-- Contact section -->
+    
+    <section class="info-wrapper">
+      <div id="logo">
+        <img src="images/logo.svg" class="logo" alt="logo">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione expedita dolorem voluptatem, minus animi quae eum.</p>
+      
+      <div id="contact-wrapper">
+        <div class="phone info">
+        <img src="images/phone.svg">
+        <p> Phone: +1-543-123-4567</p>
+        </div>
+        
+         <div class="email info">
+          <img src="images/email.svg">
+          <p> Email: example@Huddle.com</p>
+        </div>
+         
+          <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i> 
+            <i class="fa-brands fa-square-instagram"></i>     
+            <i class="fa-brands fa-square-twitter"></i>
+        </div>
+      </div> 
+    </main>
+        
       
     
-  
-    <footer>
-      <p class="attribution">
-        This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-      </p>
-    </footer>
-</main>
+      <footer class="page-footer">
+        <p class="attribution">
+          This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+        </p>
+      </footer>
+</div>   
 </body>
 </html>
